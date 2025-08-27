@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CXJAdSDK'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of CXJAdSDK.'
+  s.summary          = 'CXJAdSDK for iOS.'
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   
   s.description      = <<-DESC
-  TODO: Add long description of the pod here.
+      宸星广告SDK.支持开屏、插屏、banner、激励视频、信息流等
   DESC
   
-  s.homepage         = 'https://github.com/whzcjs/CXJAdSDK#'
+  s.homepage         = 'https://github.com/whzcjs/CXJAdSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AustinYang' => '625635129@qq.com' }
