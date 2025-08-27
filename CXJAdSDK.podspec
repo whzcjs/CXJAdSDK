@@ -56,7 +56,6 @@ Pod::Spec.new do |s|
     'CXJAdSDK/Frameworks/CXAdSDK.xcframework'
     ]
     ss.resource = 'CXJAdSDK/Resources/CXAdsBundle.bundle'
-    ss.public_header_files = 'CXJAdSDK/Frameworks/CXJAdSDK.xcframework/**/Headers/*.h'
     
   end
   
