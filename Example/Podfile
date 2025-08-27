@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CXJAdSDK_Example' do
+  pod 'CXJAdSDK', :path => '../'
+
+  target 'CXJAdSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
