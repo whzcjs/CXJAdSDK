@@ -1,0 +1,6 @@
+framework module CXJAdSDK {
+  umbrella header "CXJAdSDK.h"
+  export *
+
+  module * { export * }
+}

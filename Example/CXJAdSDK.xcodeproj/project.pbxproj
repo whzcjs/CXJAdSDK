@@ -24,6 +24,24 @@
 		79B6E8FFC56AAC39E9A4EB83 /* Pods_CXJAdSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E63999C69653FDC5B8C6C8 /* Pods_CXJAdSDK_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B64DD83296CB73BF7C636D16 /* Pods_CXJAdSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C8B3EE37B7976C1B03835 /* Pods_CXJAdSDK_Tests.framework */; };
+		D97E1AA72E5EDB42002F2BDB /* NativeAdMoreImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1A972E5EDB42002F2BDB /* NativeAdMoreImageView.m */; };
+		D97E1AA82E5EDB42002F2BDB /* NativeExpressAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1A9F2E5EDB42002F2BDB /* NativeExpressAdViewController.m */; };
+		D97E1AA92E5EDB42002F2BDB /* NativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1A992E5EDB42002F2BDB /* NativeAdViewController.m */; };
+		D97E1AAA2E5EDB42002F2BDB /* InterstitialAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1A912E5EDB42002F2BDB /* InterstitialAdViewController.m */; };
+		D97E1AAB2E5EDB42002F2BDB /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1A8E2E5EDB42002F2BDB /* BannerViewController.m */; };
+		D97E1AAC2E5EDB42002F2BDB /* NativeExpressAdViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1A9C2E5EDB42002F2BDB /* NativeExpressAdViewCell.m */; };
+		D97E1AAD2E5EDB42002F2BDB /* NativeAdListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1A942E5EDB42002F2BDB /* NativeAdListCell.m */; };
+		D97E1AAE2E5EDB42002F2BDB /* SplashAdDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1AA52E5EDB42002F2BDB /* SplashAdDelegate.m */; };
+		D97E1AAF2E5EDB42002F2BDB /* NetworkOnceTrigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E1A8B2E5EDB42002F2BDB /* NetworkOnceTrigger.swift */; };
+		D97E1AB02E5EDB42002F2BDB /* RewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1AA22E5EDB42002F2BDB /* RewardVideoViewController.m */; };
+		D97E1AB12E5EDB42002F2BDB /* NativeExpressAdViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97E1A9D2E5EDB42002F2BDB /* NativeExpressAdViewCell.xib */; };
+		D97E1AB22E5EDB42002F2BDB /* NativeAdListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97E1A952E5EDB42002F2BDB /* NativeAdListCell.xib */; };
+		D97E1AB32E5EDB42002F2BDB /* NativeExpressAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97E1AA02E5EDB42002F2BDB /* NativeExpressAdViewController.xib */; };
+		D97E1AB42E5EDB42002F2BDB /* RewardVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97E1AA32E5EDB42002F2BDB /* RewardVideoViewController.xib */; };
+		D97E1AB52E5EDB42002F2BDB /* BannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97E1A8F2E5EDB42002F2BDB /* BannerViewController.xib */; };
+		D97E1AB62E5EDB42002F2BDB /* InterstitialAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97E1A922E5EDB42002F2BDB /* InterstitialAdViewController.xib */; };
+		D97E1AB72E5EDB42002F2BDB /* NativeAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97E1A9A2E5EDB42002F2BDB /* NativeAdViewController.xib */; };
+		D97E1ABA2E5EDB8B002F2BDB /* AdTypeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D97E1AB92E5EDB8B002F2BDB /* AdTypeListModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		251D1CB1720A3F2133A41D22 /* CXJAdSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CXJAdSDK.podspec; path = ../CXJAdSDK.podspec; sourceTree = "<group>"; };
+		251D1CB1720A3F2133A41D22 /* CXJAdSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXJAdSDK.podspec; path = ../CXJAdSDK.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CXJAdSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXJAdSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +81,38 @@
 		8A8E757DCD98347ECA41DA1D /* Pods-CXJAdSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXJAdSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CXJAdSDK_Tests/Pods-CXJAdSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A66BCCDC9DBA4C172688CD5A /* Pods-CXJAdSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXJAdSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-CXJAdSDK_Example/Pods-CXJAdSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B73C8B3EE37B7976C1B03835 /* Pods_CXJAdSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXJAdSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3845ADF8218D03E39FAE8EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C3845ADF8218D03E39FAE8EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D30578708AA8174FE123478E /* Pods-CXJAdSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXJAdSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-CXJAdSDK_Example/Pods-CXJAdSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D97E1A8B2E5EDB42002F2BDB /* NetworkOnceTrigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOnceTrigger.swift; sourceTree = "<group>"; };
+		D97E1A8D2E5EDB42002F2BDB /* BannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		D97E1A8E2E5EDB42002F2BDB /* BannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		D97E1A8F2E5EDB42002F2BDB /* BannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerViewController.xib; sourceTree = "<group>"; };
+		D97E1A902E5EDB42002F2BDB /* InterstitialAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialAdViewController.h; sourceTree = "<group>"; };
+		D97E1A912E5EDB42002F2BDB /* InterstitialAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialAdViewController.m; sourceTree = "<group>"; };
+		D97E1A922E5EDB42002F2BDB /* InterstitialAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InterstitialAdViewController.xib; sourceTree = "<group>"; };
+		D97E1A932E5EDB42002F2BDB /* NativeAdListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAdListCell.h; sourceTree = "<group>"; };
+		D97E1A942E5EDB42002F2BDB /* NativeAdListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAdListCell.m; sourceTree = "<group>"; };
+		D97E1A952E5EDB42002F2BDB /* NativeAdListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAdListCell.xib; sourceTree = "<group>"; };
+		D97E1A962E5EDB42002F2BDB /* NativeAdMoreImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAdMoreImageView.h; sourceTree = "<group>"; };
+		D97E1A972E5EDB42002F2BDB /* NativeAdMoreImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAdMoreImageView.m; sourceTree = "<group>"; };
+		D97E1A982E5EDB42002F2BDB /* NativeAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAdViewController.h; sourceTree = "<group>"; };
+		D97E1A992E5EDB42002F2BDB /* NativeAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAdViewController.m; sourceTree = "<group>"; };
+		D97E1A9A2E5EDB42002F2BDB /* NativeAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAdViewController.xib; sourceTree = "<group>"; };
+		D97E1A9B2E5EDB42002F2BDB /* NativeExpressAdViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeExpressAdViewCell.h; sourceTree = "<group>"; };
+		D97E1A9C2E5EDB42002F2BDB /* NativeExpressAdViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeExpressAdViewCell.m; sourceTree = "<group>"; };
+		D97E1A9D2E5EDB42002F2BDB /* NativeExpressAdViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeExpressAdViewCell.xib; sourceTree = "<group>"; };
+		D97E1A9E2E5EDB42002F2BDB /* NativeExpressAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeExpressAdViewController.h; sourceTree = "<group>"; };
+		D97E1A9F2E5EDB42002F2BDB /* NativeExpressAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeExpressAdViewController.m; sourceTree = "<group>"; };
+		D97E1AA02E5EDB42002F2BDB /* NativeExpressAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeExpressAdViewController.xib; sourceTree = "<group>"; };
+		D97E1AA12E5EDB42002F2BDB /* RewardVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardVideoViewController.h; sourceTree = "<group>"; };
+		D97E1AA22E5EDB42002F2BDB /* RewardVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardVideoViewController.m; sourceTree = "<group>"; };
+		D97E1AA32E5EDB42002F2BDB /* RewardVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RewardVideoViewController.xib; sourceTree = "<group>"; };
+		D97E1AA42E5EDB42002F2BDB /* SplashAdDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashAdDelegate.h; sourceTree = "<group>"; };
+		D97E1AA52E5EDB42002F2BDB /* SplashAdDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashAdDelegate.m; sourceTree = "<group>"; };
+		D97E1AB82E5EDB8B002F2BDB /* AdTypeListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdTypeListModel.h; sourceTree = "<group>"; };
+		D97E1AB92E5EDB8B002F2BDB /* AdTypeListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdTypeListModel.m; sourceTree = "<group>"; };
 		E74055CD3055B60002E7C84B /* Pods-CXJAdSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXJAdSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-CXJAdSDK_Tests/Pods-CXJAdSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EB8D2986F90ABC0E2BB33DBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB8D2986F90ABC0E2BB33DBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +149,6 @@
 				8A8E757DCD98347ECA41DA1D /* Pods-CXJAdSDK_Tests.debug.xcconfig */,
 				E74055CD3055B60002E7C84B /* Pods-CXJAdSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,12 +189,15 @@
 		6003F593195388D20070C39A /* Example for CXJAdSDK */ = {
 			isa = PBXGroup;
 			children = (
+				D97E1AA62E5EDB42002F2BDB /* DemoFiles */,
 				6003F59C195388D20070C39A /* CXJAppDelegate.h */,
 				6003F59D195388D20070C39A /* CXJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CXJViewController.h */,
 				6003F5A6195388D20070C39A /* CXJViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				D97E1AB82E5EDB8B002F2BDB /* AdTypeListModel.h */,
+				D97E1AB92E5EDB8B002F2BDB /* AdTypeListModel.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -197,6 +245,47 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		D97E1A8C2E5EDB42002F2BDB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D97E1A8B2E5EDB42002F2BDB /* NetworkOnceTrigger.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D97E1AA62E5EDB42002F2BDB /* DemoFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D97E1A8C2E5EDB42002F2BDB /* Common */,
+				D97E1A8D2E5EDB42002F2BDB /* BannerViewController.h */,
+				D97E1A8E2E5EDB42002F2BDB /* BannerViewController.m */,
+				D97E1A8F2E5EDB42002F2BDB /* BannerViewController.xib */,
+				D97E1A902E5EDB42002F2BDB /* InterstitialAdViewController.h */,
+				D97E1A912E5EDB42002F2BDB /* InterstitialAdViewController.m */,
+				D97E1A922E5EDB42002F2BDB /* InterstitialAdViewController.xib */,
+				D97E1A932E5EDB42002F2BDB /* NativeAdListCell.h */,
+				D97E1A942E5EDB42002F2BDB /* NativeAdListCell.m */,
+				D97E1A952E5EDB42002F2BDB /* NativeAdListCell.xib */,
+				D97E1A962E5EDB42002F2BDB /* NativeAdMoreImageView.h */,
+				D97E1A972E5EDB42002F2BDB /* NativeAdMoreImageView.m */,
+				D97E1A982E5EDB42002F2BDB /* NativeAdViewController.h */,
+				D97E1A992E5EDB42002F2BDB /* NativeAdViewController.m */,
+				D97E1A9A2E5EDB42002F2BDB /* NativeAdViewController.xib */,
+				D97E1A9B2E5EDB42002F2BDB /* NativeExpressAdViewCell.h */,
+				D97E1A9C2E5EDB42002F2BDB /* NativeExpressAdViewCell.m */,
+				D97E1A9D2E5EDB42002F2BDB /* NativeExpressAdViewCell.xib */,
+				D97E1A9E2E5EDB42002F2BDB /* NativeExpressAdViewController.h */,
+				D97E1A9F2E5EDB42002F2BDB /* NativeExpressAdViewController.m */,
+				D97E1AA02E5EDB42002F2BDB /* NativeExpressAdViewController.xib */,
+				D97E1AA12E5EDB42002F2BDB /* RewardVideoViewController.h */,
+				D97E1AA22E5EDB42002F2BDB /* RewardVideoViewController.m */,
+				D97E1AA32E5EDB42002F2BDB /* RewardVideoViewController.xib */,
+				D97E1AA42E5EDB42002F2BDB /* SplashAdDelegate.h */,
+				D97E1AA52E5EDB42002F2BDB /* SplashAdDelegate.m */,
+			);
+			path = DemoFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,7 +297,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				31B5645C9D608EB6EFFF5A1D /* [CP] Embed Pods Frameworks */,
+				90C3DFC09245616A0934802D /* [CP] Copy Pods Resources */,
+				73F8D1A5206B54D893CBF5AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +338,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = AustinYang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XU44ZAN547;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +351,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +374,13 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				D97E1AB12E5EDB42002F2BDB /* NativeExpressAdViewCell.xib in Resources */,
+				D97E1AB22E5EDB42002F2BDB /* NativeAdListCell.xib in Resources */,
+				D97E1AB32E5EDB42002F2BDB /* NativeExpressAdViewController.xib in Resources */,
+				D97E1AB42E5EDB42002F2BDB /* RewardVideoViewController.xib in Resources */,
+				D97E1AB52E5EDB42002F2BDB /* BannerViewController.xib in Resources */,
+				D97E1AB62E5EDB42002F2BDB /* InterstitialAdViewController.xib in Resources */,
+				D97E1AB72E5EDB42002F2BDB /* NativeAdViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,24 +396,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31B5645C9D608EB6EFFF5A1D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CXJAdSDK_Example/Pods-CXJAdSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CXJAdSDK/CXJAdSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CXJAdSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CXJAdSDK_Example/Pods-CXJAdSDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		360B3BE605BF9E40D1BBAAD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +416,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73F8D1A5206B54D893CBF5AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXJAdSDK_Example/Pods-CXJAdSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CXJAdSDK_Example/Pods-CXJAdSDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C3DFC09245616A0934802D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXJAdSDK_Example/Pods-CXJAdSDK_Example-resources.sh",
+				"${PODS_ROOT}/../../CXJAdSDK/Resources/CXAdsBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CXAdsBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CXJAdSDK_Example/Pods-CXJAdSDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EB8574D60EA9F4987DCFEDA5 /* [CP] Check Pods Manifest.lock */ = {
@@ -364,6 +491,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97E1ABA2E5EDB8B002F2BDB /* AdTypeListModel.m in Sources */,
+				D97E1AA72E5EDB42002F2BDB /* NativeAdMoreImageView.m in Sources */,
+				D97E1AA82E5EDB42002F2BDB /* NativeExpressAdViewController.m in Sources */,
+				D97E1AA92E5EDB42002F2BDB /* NativeAdViewController.m in Sources */,
+				D97E1AAA2E5EDB42002F2BDB /* InterstitialAdViewController.m in Sources */,
+				D97E1AAB2E5EDB42002F2BDB /* BannerViewController.m in Sources */,
+				D97E1AAC2E5EDB42002F2BDB /* NativeExpressAdViewCell.m in Sources */,
+				D97E1AAD2E5EDB42002F2BDB /* NativeAdListCell.m in Sources */,
+				D97E1AAE2E5EDB42002F2BDB /* SplashAdDelegate.m in Sources */,
+				D97E1AAF2E5EDB42002F2BDB /* NetworkOnceTrigger.swift in Sources */,
+				D97E1AB02E5EDB42002F2BDB /* RewardVideoViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CXJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CXJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -494,13 +632,15 @@
 			baseConfigurationReference = D30578708AA8174FE123478E /* Pods-CXJAdSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XU44ZAN547;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CXJAdSDK/CXJAdSDK-Prefix.pch";
 				INFOPLIST_FILE = "CXJAdSDK/CXJAdSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +650,15 @@
 			baseConfigurationReference = A66BCCDC9DBA4C172688CD5A /* Pods-CXJAdSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XU44ZAN547;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CXJAdSDK/CXJAdSDK-Prefix.pch";
 				INFOPLIST_FILE = "CXJAdSDK/CXJAdSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

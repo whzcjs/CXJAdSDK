@@ -1,9 +1,9 @@
 {
   "name": "CXJAdSDK",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of CXJAdSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/AustinYang/CXJAdSDK",
+  "homepage": "https://github.com/whzcjs/CXJAdSDK#",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,70 @@
     "AustinYang": "625635129@qq.com"
   },
   "source": {
-    "git": "https://github.com/AustinYang/CXJAdSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/whzcjs/CXJAdSDK.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "CXJAdSDK/Classes/**/*"
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AdSupport",
+    "CoreTelephony",
+    "SystemConfiguration"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "VALID_ARCHS": "arm64 armv7 x86_64"
+  },
+  "default_subspecs": "CXJAdSDK",
+  "subspecs": [
+    {
+      "name": "CXJAdSDK",
+      "vendored_frameworks": [
+        "CXJAdSDK/Frameworks/CXJAdSDK.xcframework",
+        "CXJAdSDK/Frameworks/CXAdSDK.xcframework"
+      ],
+      "resources": "CXJAdSDK/Resources/CXAdsBundle.bundle",
+      "public_header_files": "CXJAdSDK/Frameworks/CXJAdSDK.xcframework/**/Headers/*.h"
+    },
+    {
+      "name": "CXBDAdapter",
+      "vendored_frameworks": [
+        "CXJAdSDK/Frameworks/CXBDAdapter.xcframework"
+      ],
+      "dependencies": {
+        "BaiduMobAdSDK": []
+      }
+    },
+    {
+      "name": "CXFWAdapter",
+      "vendored_frameworks": [
+        "CXJAdSDK/Frameworks/CXFWAdapter.xcframework"
+      ],
+      "dependencies": {
+        "JADYun": []
+      }
+    },
+    {
+      "name": "CXJADAdapter",
+      "vendored_frameworks": [
+        "CXJAdSDK/Frameworks/CXJADAdapter.xcframework"
+      ],
+      "dependencies": {
+        "PTGAdFramework": []
+      }
+    },
+    {
+      "name": "CXQMAdapter",
+      "vendored_frameworks": [
+        "CXJAdSDK/Frameworks/CXQMAdapter.xcframework"
+      ],
+      "dependencies": {
+        "QuMengAdSDK": []
+      }
+    }
+  ]
 }

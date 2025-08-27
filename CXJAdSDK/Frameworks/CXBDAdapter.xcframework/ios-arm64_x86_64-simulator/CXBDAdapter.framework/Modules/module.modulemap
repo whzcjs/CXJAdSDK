@@ -1,0 +1,6 @@
+framework module CXBDAdapter {
+  umbrella header "CXBDAdapter.h"
+  export *
+
+  module * { export * }
+}

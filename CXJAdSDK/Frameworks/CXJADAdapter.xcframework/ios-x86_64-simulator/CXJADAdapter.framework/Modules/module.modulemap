@@ -1,0 +1,6 @@
+framework module CXJADAdapter {
+  umbrella header "CXJADAdapter.h"
+  export *
+
+  module * { export * }
+}

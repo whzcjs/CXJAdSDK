@@ -1,0 +1,6 @@
+framework module CXQMAdapter {
+  umbrella header "CXQMAdapter.h"
+  export *
+
+  module * { export * }
+}

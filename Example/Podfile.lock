@@ -1,16 +1,43 @@
 PODS:
-  - CXJAdSDK (0.1.0)
+  - CXJAdSDK (1.0.0):
+    - CXJAdSDK/CXJAdSDK (= 1.0.0)
+  - CXJAdSDK/CXJAdSDK (1.0.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.2)
+  - SDWebImage (5.21.1):
+    - SDWebImage/Core (= 5.21.1)
+  - SDWebImage/Core (5.21.1)
+  - Toast (4.1.1)
 
 DEPENDENCIES:
   - CXJAdSDK (from `../`)
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - SDWebImage
+  - Toast
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - SDWebImage
+    - Toast
 
 EXTERNAL SOURCES:
   CXJAdSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXJAdSDK: a88bd5acfda703edd44db7cdc3954f38eb752af1
+  CXJAdSDK: 3830eaa931edddeceb93fc616c2e8916b758b07d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
+  SDWebImage: f29024626962457f3470184232766516dee8dfea
+  Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
 
-PODFILE CHECKSUM: ddbd270de351419eaa4552b46a4cd0690c98d439
+PODFILE CHECKSUM: 777059637ff4c8a7fe044097dc56bf3a3ca548cd
 
 COCOAPODS: 1.16.2
