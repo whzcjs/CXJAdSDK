@@ -1,9 +1,9 @@
 {
   "name": "CXJAdSDK",
   "version": "1.0.0",
-  "summary": "A short description of CXJAdSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/whzcjs/CXJAdSDK#",
+  "summary": "CXJAdSDK for iOS.",
+  "description": "宸星广告SDK.支持开屏、插屏、banner、激励视频、信息流等",
+  "homepage": "https://github.com/whzcjs/CXJAdSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -19,17 +19,21 @@
     "ios": "12.0"
   },
   "frameworks": [
-    "UIKit",
-    "Foundation",
     "AdSupport",
     "CoreTelephony",
-    "SystemConfiguration"
+    "SystemConfiguration",
+    "AVFoundation",
+    "CoreMotion",
+    "StoreKit",
+    "AdSupport",
+    "WebKit"
   ],
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-ObjC",
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "VALID_ARCHS": "arm64 armv7 x86_64"
   },
+  "static_framework": true,
   "default_subspecs": "CXJAdSDK",
   "subspecs": [
     {
@@ -38,8 +42,7 @@
         "CXJAdSDK/Frameworks/CXJAdSDK.xcframework",
         "CXJAdSDK/Frameworks/CXAdSDK.xcframework"
       ],
-      "resources": "CXJAdSDK/Resources/CXAdsBundle.bundle",
-      "public_header_files": "CXJAdSDK/Frameworks/CXJAdSDK.xcframework/**/Headers/*.h"
+      "resources": "CXJAdSDK/Resources/CXAdsBundle.bundle"
     },
     {
       "name": "CXBDAdapter",

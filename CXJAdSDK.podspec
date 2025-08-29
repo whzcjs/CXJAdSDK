@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CXJAdSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.0.1'
   s.summary          = 'CXJAdSDK for iOS.'
   
   # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   # }
   
   
-  s.frameworks = 'UIKit', 'Foundation', 'AdSupport', 'CoreTelephony', 'SystemConfiguration'
+  s.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration','AVFoundation', 'CoreMotion', 'StoreKit', 'AdSupport', 'WebKit'
   
   s.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC',
@@ -47,6 +47,7 @@ Pod::Spec.new do |s|
   #  s.resource = 'CXJAdSDK/Resources/CXAdsBundle.bundle'
   #
   #  s.public_header_files = 'CXJAdSDK/Frameworks/CXJAdSDK.framework/Headers/*.h'
+  s.static_framework = true
   
   s.default_subspec = 'CXJAdSDK'
   
