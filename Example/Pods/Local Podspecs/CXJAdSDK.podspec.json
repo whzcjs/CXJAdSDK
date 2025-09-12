@@ -1,6 +1,6 @@
 {
   "name": "CXJAdSDK",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "CXJAdSDK for iOS.",
   "description": "宸星广告SDK.支持开屏、插屏、banner、激励视频、信息流等",
   "homepage": "https://github.com/whzcjs/CXJAdSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/whzcjs/CXJAdSDK.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "12.0"
@@ -78,6 +78,15 @@
       ],
       "dependencies": {
         "QuMengAdSDK": []
+      }
+    },
+    {
+      "name": "CXFSAdapter",
+      "vendored_frameworks": [
+        "CXJAdSDK/Frameworks/CXFSAdapter.xcframework"
+      ],
+      "dependencies": {
+        "FSUnionAdSDK": []
       }
     }
   ]

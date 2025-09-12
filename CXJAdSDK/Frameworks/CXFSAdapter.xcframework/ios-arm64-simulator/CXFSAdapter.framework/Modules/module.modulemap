@@ -1,0 +1,6 @@
+framework module CXFSAdapter {
+  umbrella header "CXFSAdapter.h"
+  export *
+
+  module * { export * }
+}

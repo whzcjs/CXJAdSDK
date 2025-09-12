@@ -1,15 +1,15 @@
 PODS:
   - BaiduMobAdSDK (10.01)
-  - CXJAdSDK (1.0.0):
-    - CXJAdSDK/CXJAdSDK (= 1.0.0)
-  - CXJAdSDK/CXBDAdapter (1.0.0):
+  - CXJAdSDK (1.0.1):
+    - CXJAdSDK/CXJAdSDK (= 1.0.1)
+  - CXJAdSDK/CXBDAdapter (1.0.1):
     - BaiduMobAdSDK
-  - CXJAdSDK/CXFWAdapter (1.0.0):
+  - CXJAdSDK/CXFWAdapter (1.0.1):
     - JADYun
-  - CXJAdSDK/CXJADAdapter (1.0.0):
+  - CXJAdSDK/CXJADAdapter (1.0.1):
     - PTGAdFramework
-  - CXJAdSDK/CXJAdSDK (1.0.0)
-  - CXJAdSDK/CXQMAdapter (1.0.0):
+  - CXJAdSDK/CXJAdSDK (1.0.1)
+  - CXJAdSDK/CXQMAdapter (1.0.1):
     - QuMengAdSDK
   - JADYun (2.6.8)
   - Masonry (1.1.0)
@@ -52,7 +52,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BaiduMobAdSDK: a8e1d5ea2ed4782c4b0dbb7995e923805100acfd
-  CXJAdSDK: c793468d9d3ebfe19180d519a44b69b876215244
+  CXJAdSDK: 1f47e2e7241bcabc01b0c56b049745e89d53cd93
   JADYun: fe7f107f9baa699ef768fd3bb74d2b0aee70bb48
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406

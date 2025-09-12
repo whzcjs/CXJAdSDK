@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CXJAdSDK'
-  s.version          = '1.0.0.1'
+  s.version          = '1.0.1'
   s.summary          = 'CXJAdSDK for iOS.'
   
   # This description is used to generate tags and improve search results.
@@ -89,6 +89,14 @@ Pod::Spec.new do |s|
     ]
     
     ss.dependency 'QuMengAdSDK'
+  end
+  
+  s.subspec 'CXFSAdapter' do |ss|
+    ss.vendored_frameworks = [
+    'CXJAdSDK/Frameworks/CXFSAdapter.xcframework',
+    ]
+    
+    ss.dependency 'FSUnionAdSDK'
   end
   
 end
