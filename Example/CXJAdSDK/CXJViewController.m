@@ -37,6 +37,7 @@
 }
 
 - (void)setup {
+    self.title = @"宸星广告";
     self.contentList = [AdTypeListModel getDataList];
     [self.tableView registerClass:UITableViewCell.class forCellReuseIdentifier:@"cell"];
 }

@@ -4,10 +4,11 @@ platform :ios, '12.0'
 
 target 'CXJAdSDK_Example' do
   pod 'CXJAdSDK', :path => '../'
-  pod 'CXJAdSDK/CXBDAdapter', :path => '../'
-  pod 'CXJAdSDK/CXFWAdapter', :path => '../'
-  pod 'CXJAdSDK/CXQMAdapter', :path => '../'
+  pod 'CXJAdSDK/CXBDAdapter',  :path => '../'
+  pod 'CXJAdSDK/CXFWAdapter',  :path => '../'
+  pod 'CXJAdSDK/CXQMAdapter',  :path => '../'
   pod 'CXJAdSDK/CXJADAdapter', :path => '../'
+  pod 'CXJAdSDK/CXFSAdapter',  :path => '../'
 
   target 'CXJAdSDK_Tests' do
     inherit! :search_paths
